@@ -18,9 +18,6 @@ public class ProgLang {
         this.path = path;
         getContentFromFile(path);
     }
-    public void show(){
-    System.out.println("moja metoda show");
-    }
 
     private void getContentFromFile(String path) {
         try {

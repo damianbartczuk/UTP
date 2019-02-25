@@ -1,24 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="efe733c5-c804-4ef5-a53e-bc28a2aca68d" name="Default Changelist" comment="Final version">
-      <change afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programmers.tsv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UTP7_BD_S17763.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/zad1/Anagrams.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/zad1/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/zad2/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/zad2/ProgLang.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zad1/Anagrams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zad1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zad2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zad2/ProgLang.java" afterDir="false" />
+    <list default="true" id="efe733c5-c804-4ef5-a53e-bc28a2aca68d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zad2/ProgLang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zad2/ProgLang.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,7 +17,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/zad2/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
+            <state relative-caret-position="980">
               <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -44,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/zad2/ProgLang.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="105" column="78" lean-forward="true" selection-start-line="105" selection-start-column="78" selection-end-line="105" selection-end-column="78" />
+            <state relative-caret-position="20">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,7 +41,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/zad1/Anagrams.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
+            <state relative-caret-position="1900">
               <caret line="101" column="8" selection-start-line="101" selection-start-column="8" selection-end-line="101" selection-end-column="8" />
             </state>
           </provider>
@@ -97,9 +82,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="573" />
-    <option name="y" value="140" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="184" />
+    <option name="y" value="151" />
     <option name="width" value="1294" />
     <option name="height" value="907" />
   </component>
@@ -109,7 +94,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -139,12 +123,13 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551117385059" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551117506223" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -232,12 +217,28 @@
       <workItem from="1550272286029" duration="1385000" />
       <workItem from="1550315804626" duration="60000" />
       <workItem from="1551098630526" duration="5628000" />
-      <workItem from="1551111775896" duration="5411000" />
+      <workItem from="1551111775896" duration="5731000" />
+      <workItem from="1551134198662" duration="264000" />
     </task>
+    <task id="LOCAL-00001" summary="Final version">
+      <created>1551117201573</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1551117201574</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Final version1">
+      <created>1551117318773</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1551117318773</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55556000" />
+    <option name="totallyTimeSpent" value="56140000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -249,10 +250,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="2576" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09264413" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09343936" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -270,7 +271,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32921347" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.32502708" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32502708" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -320,7 +321,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Final version" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final version" />
+    <MESSAGE value="Final version1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final version1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/util/ArrayList.java" />
@@ -361,16 +363,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zad1/Anagrams.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="101" column="8" selection-start-line="101" selection-start-column="8" selection-end-line="101" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/zad2/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
+        <state relative-caret-position="980">
           <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -378,10 +373,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/zad1/Anagrams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1900">
+          <caret line="101" column="8" selection-start-line="101" selection-start-column="8" selection-end-line="101" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/zad2/ProgLang.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="105" column="78" lean-forward="true" selection-start-line="105" selection-start-column="78" selection-end-line="105" selection-end-column="78" />
+        <state relative-caret-position="20">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
