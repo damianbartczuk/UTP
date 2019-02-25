@@ -9,7 +9,7 @@ import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
 public class ProgLang {
-int wrt;
+
     private String path;
     private List<String> listOfProgrammers = new ArrayList<>();
     private List<String> content = new ArrayList<>();
@@ -17,6 +17,9 @@ int wrt;
     ProgLang(String path) {
         this.path = path;
         getContentFromFile(path);
+    }
+    public void show(){
+    System.out.println("moja metoda show");
     }
 
     private void getContentFromFile(String path) {
