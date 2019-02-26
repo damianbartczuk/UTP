@@ -25,7 +25,6 @@ public class ProgLang {
             String line;
             while ((line = br.readLine()) != null) {
                 content.add(line);
-                System.out.println("line = " + line ) ;
             }
         } catch (FileNotFoundException e) {
             e.printStackTrace();
@@ -41,7 +40,7 @@ public class ProgLang {
             tmp = content.get(i).split("\\t");
             for (int j = 1; j < tmp.length; j++) {
                 if (!listOfProgrammers.contains(tmp[j]))
-                listOfProgrammers.add(tmp[j]);
+                    listOfProgrammers.add(tmp[j]);
             }
             map.put(tmp[0], listOfProgrammers);
             listOfProgrammers = new ArrayList<>();
@@ -50,24 +49,25 @@ public class ProgLang {
     }
 
     Map<String, List<String>> getProgsMap() {
-        Map<String, List<String>> map = new LinkedHashMap<>(); // zachowanie porząkdu
+        Map<String, List<String>> map = new LinkedHashMap<>();
         Map<String, List<String>> tmp = getLangsMap();
         Set<String> programmers = new LinkedHashSet();
 
-        for ( String str: content) {
+        for (String str : content) {
             programmers.addAll(tmp.get(str.split("\\t")[0]));
         }
 
         List<String> ll;
         List<String> listOfProg = new ArrayList<>(programmers);
-        for (int i = 0; i < listOfProg.size(); i++) {
+
+        for (String i : listOfProg) {
             ll = new ArrayList<>();
-            for (int j = 0; j < tmp.size(); j++) {
-                String[] o = content.get(j).split("\\t");
-                if (tmp.get(o[0]).contains(listOfProg.get(i)))
-                    ll.add(o[0]);
+            for (String j: content) {
+                String langProg = j.split("\\t")[0];
+                if (tmp.get(langProg).contains(i))
+                    ll.add(langProg);
             }
-            map.put(listOfProg.get(i), ll);
+            map.put(i,ll);
         }
         return map;
     }
@@ -84,7 +84,7 @@ public class ProgLang {
     public Map getProgsMapSortedByNumOfLangs() {
         Map<String, List<String>> sortedMap = sorted(getProgsMap(),
                 Collections.reverseOrder((o1, o2) ->
-                     o1.getValue().size() - o2.getValue().size()
+                        o1.getValue().size() - o2.getValue().size()
                 )
         );
         return sortedMap;
@@ -92,7 +92,7 @@ public class ProgLang {
 
     public Map<String, List<String>> getProgsMapForNumOfLangsGreaterThan(int n) {
         Map<String, List<String>> sortedMap = filtered(getProgsMap(), e ->
-            e.getValue().size() > n
+                e.getValue().size() > n
         );
         return sortedMap;
     }
@@ -100,7 +100,7 @@ public class ProgLang {
     public <T, V> Map<T, V> sorted(Map<T, V> map, Comparator<Map.Entry<T, V>> com) {
         List<T> keys = new ArrayList<>(map.keySet());
         Map<T, V> mapTmp = new LinkedHashMap<>();
-        for(int i = 0 ; i < keys.size(); i++){
+        for (int i = 0; i < keys.size(); i++) {
             mapTmp.put(keys.get(i), map.get(keys.get(i)));
         }
         List<Map.Entry<T, V>> listToSort = new ArrayList<>(mapTmp.entrySet());
@@ -110,13 +110,11 @@ public class ProgLang {
         return sortedMap;
     }
 
-    public <V, T> Map<V,T> filtered(Map<V, T> map, Predicate<Map.Entry<V, T>> pred) {
+    public <V, T> Map<V, T> filtered(Map<V, T> map, Predicate<Map.Entry<V, T>> pred) {
         List<Map.Entry<V, T>> entries = new ArrayList<>(map.entrySet());
-        List<Map.Entry<V,T>> results = entries.stream().filter(pred).collect(Collectors.toList());
+        List<Map.Entry<V, T>> results = entries.stream().filter(pred).collect(Collectors.toList());
         Map<V, T> result = new LinkedHashMap<>();
         results.forEach(e -> result.put(e.getKey(), e.getValue()));
         return result;
     }
-
-
 }
